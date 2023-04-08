@@ -5,12 +5,14 @@ import Form from '../Components/Form'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='Contact'>
       <h2>Want to know more?</h2>
       <p>Send us your questions and we will contact you</p>
+      <br/>
+      <br/>
       <Form/>
     </div>
   )
 }
 
-export default Contact
+export default Contact;
